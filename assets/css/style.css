@@ -1,0 +1,34 @@
+.col-12.btn.answerchoice {
+  text-align:center;
+  border: #3dc0a5 3px solid;
+  background-color: #bef7d4;
+  border-radius: 4px;
+  padding: 10px 0px 10px 0px;
+  min-width: 400px;
+  margin: 10px 0px 10px 0px;
+  color: #077760;
+}
+
+.mainQuestion {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #3dc0a5;
+}
+
+.timer {
+  text-align: center;
+  color: #e4766c;
+}
+
+.onStart {
+  padding-top: 10px;
+   }
+
+#correct, #incorrect {
+  text-align: center;
+  color: #e4766c;
+}
+
+body {
+    font-family: 'Jua', sans-serif;
+     }

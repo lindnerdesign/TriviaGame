@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet" type="text/css" media="screen" href="assets/css/reset.css"/>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css"/>
+<script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+<script src="assets/javascript/app.js" type="text/javascript"></script>
+<link rel="shortcut icon" type="image/png" href="assets/images/flavicon.png"/>
+<link href="https://fonts.googleapis.com/css?family=Jua" rel="stylesheet">
+
+
+<title>DONUT TRIVIA!</title>
+  <style>
+   .jumbotron{
+        background-image: url(assets/images/donutbanner.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        height:300px;
+        text-align: center;
+        padding-top: 40px;
+       }
+
+   </style>
+
+</head>
+<body>
+
+<!--Jumbotron-->
+<div class="jumbotron jumbotron-fluid">
+  <div class="container">
+    <img src="assets/images/donutTriviaTitle.png">
+  </div>
+</div>
+
+<!--Main Question Container-->
+<div class="container">
+    <div class="row">
+      <h4 class="col-12 mainQuestion" id="mainQuestionId"></h4>
+    </div>
+
+    <div class="row">
+      <img src="assets/images/start.png" class="col-6 onStart" id="startButton">
+    </div>
+<!--Timer Container -->
+      <div class="row">
+        <h6 class="col-12 timer"></h6>
+      </div>
+
+<!--Btn Container-->
+      <div class="row">
+         <button class="col-12 btn answerchoice" id="a1"></button>
+      </div>
+
+      <div class="row">
+         <button class="col-12 btn answerchoice" id="a2"></button>
+       </div>
+
+      <div class="row">
+         <button class="col-12 btn answerchoice" id="a3"></button>
+      </div>
+
+      <div class="row">
+         <button class="col-12 btn answerchoice" id="a4"></button>
+       </div>
+
+      <div class="row">
+         <h5 class="col-6 guesses" id='correct'></h5>
+         <h5 class="col-6 guesses" id='incorrect'></h5>
+      </div>
+  </div>
+
+
+      <!--Timer Container-->
+
+
+
+<!--More Bootstrap-->
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>
